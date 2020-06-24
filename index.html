@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calc_wrapper">
+        <div class="calc_screen"></div>
+        <div class="calc_buttons">
+            <div class="row1 rows">
+                <button class="number" value="1">1</button>
+                <button class="number" value="2">2</button>
+                <button class="number" value="3">3</button>
+                <button class="operator" value="*">*</button>
+                <button class="operator" value="+">+</button>
+            </div>
+            <div class="row2 rows">
+                <button class="number" value="4">4</button>
+                <button class="number" value="5">5</button>
+                <button class="number" value="6">6</button>
+                <button class="operator" value="/">/</button>
+                <button class="operator" value="-">-</button>
+            </div>
+            <div class="row3 rows">
+                <button class="number" value="7">7</button>
+                <button class="number" value="8">8</button>
+                <button class="number" value="9">9</button>
+                <button class="number" value="0">0</button>
+                <button class="number" value=".">.</button>
+            </div>
+            <div class="row4 rows">
+                <div class="row4 1 rows">
+                    <input type="checkbox" class="sound_on-off switch_1">
+                    <span class="sound_btn">sound off / on</span>
+                </div>
+                <div class="row4.2 rows">
+                    <button class="clear" value="C">C</button>
+                    <button class="equal" value="=">=</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <style>
+        @font-face {
+            font-family: Digital-7;
+            src: url(./digital-7/digital-7.ttf);
+        }
+    </style>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
